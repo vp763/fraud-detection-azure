@@ -5,7 +5,7 @@ A real-time phone call fraud detection pipeline built using Microsoft Azure serv
 The system detects fraudulent calls by identifying when the same user makes calls from two different countries within 5 seconds — which is physically impossible.
 
 ## Live Dashboard
-![Fraud Detection Dashboard](screenshots/dashboard.png)
+![Fraud Detection Dashboard](/dashboard.png)
 
 ---
 
