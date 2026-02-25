@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0a2e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            color: white;
+        }
+        h2 {
+            color: #00d4ff;
+            margin-bottom: 40px;
+            font-size: 24px;
+        }
+        .pipeline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .box {
+            background: linear-gradient(135deg, #1a1a4e, #2a2a6e);
+            border: 2px solid #00d4ff;
+            border-radius: 12px;
+            padding: 20px 25px;
+            width: 150px;
+            text-align: center;
+        }
+        .box .icon { font-size: 36px; margin-bottom: 10px; }
+        .box .title { font-size: 13px; font-weight: bold; color: #00d4ff; }
+        .box .sub { font-size: 11px; color: #aaa; margin-top: 5px; }
+        .arrow {
+            font-size: 28px;
+            color: #00d4ff;
+            font-weight: bold;
+        }
+        .fraud-badge {
+            margin-top: 40px;
+            background: #ff4444;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🚨 Real-Time Fraud Detection Architecture</h2>
+        <div class="pipeline">
+            <div class="box">
+                <div class="icon">📞</div>
+                <div class="title">TelcoGenerator</div>
+                <div class="sub">Fake call data<br>1000 calls/hr</div>
+            </div>
+            <div class="arrow">→</div>
+            <div class="box">
+                <div class="icon">⚡</div>
+                <div class="title">Azure Event Hub</div>
+                <div class="sub">Real-time<br>data ingestion</div>
+            </div>
+            <div class="arrow">→</div>
+            <div class="box">
+                <div class="icon">🔍</div>
+                <div class="title">Stream Analytics</div>
+                <div class="sub">Fraud detection<br>SQL query</div>
+            </div>
+            <div class="arrow">→</div>
+            <div class="box">
+                <div class="icon">📊</div>
+                <div class="title">Power BI</div>
+                <div class="sub">Live dashboard<br>visualization</div>
+            </div>
+        </div>
+        <div class="fraud-badge">🚨 Fraud Detected in Real-Time!</div>
+    </div>
+</body>
+</html>
